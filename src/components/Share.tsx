@@ -34,7 +34,7 @@ const Share = () => {
               <span>Feelings</span>
             </div>
           </div>
-          <button className='bg-green-600 outline-none font-medium px-3 py-1 cursor-pointer text-white rounded-md mr-5'>Share</button>
+          <button className='bg-green-600 hover:bg-green-500 outline-none font-medium px-3 py-1 cursor-pointer text-white rounded-md mr-5'>Share</button>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const ProfilePage = () => {
       <Navbar />
       <div className='flex justify-between'>
         <Sidebar />
-        <div className='flex flex-col'>
+        <div className='w-[80%] flex flex-col'>
           <div>
             <div className='relative'>
               <div className='w-full h-96'>
@@ -30,7 +30,7 @@ const ProfilePage = () => {
               </div>
             </div>
             <div className='flex justify-center items-center flex-col mt-14'>
-              <h4 className='text-3xl'>Rita</h4>
+              <h4 className='text-3xl'>Rita Roy</h4>
               <span className='text-lg text-gray-500'>Hello my friends!</span>
             </div>
           </div>

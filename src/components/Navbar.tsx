@@ -1,12 +1,15 @@
 import { Message, Notifications, Person, Search } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 import UsersImg from '../assets/person/1.jpg';
 
 const Navbar = () => {
   return (
     <header className='w-full py-4 bg-blue-800 flex justify-between px-3 items-center sticky top-0 z-20'>
-      <div className='text-lg font-bold bg-gradient-to-r from-pink-400 to-violet-400 text-transparent bg-clip-text'>
+      <Link to={"/"}>
+      <span className='text-lg font-bold bg-gradient-to-r from-pink-400 to-white text-transparent bg-clip-text'>
         LAMA SOCIAL
-      </div>
+      </span>
+      </Link>
       <div className=' w-96 h-6 rounded-full flex justify-normal items-center space-x-2 p-2 bg-white'>
         <Search />
         <input
